@@ -250,3 +250,8 @@ paket-files/
 # JetBrains Rider
 .idea/
 *.sln.iml
+NSIS/*.exe
+*.sdps
+*.exe
+*.blend1
+Thumbs.db
