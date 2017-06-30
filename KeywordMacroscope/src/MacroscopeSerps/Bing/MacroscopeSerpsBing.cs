@@ -1,4 +1,4 @@
-﻿<!-- 
+﻿/*
 
 	This file is part of KeywordMacroscope.
 
@@ -21,14 +21,30 @@
 	You should have received a copy of the GNU General Public License
 	along with Foobar.  If not, see <http://www.gnu.org/licenses/>.
 
--->
+*/
 
-<Window x:Class="KeywordMacroscope.MainWindow"
-	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-	Title="KeywordMacroscope" Height="300" Width="300"
-	>
-	<Grid>
-		
-	</Grid>
-</Window>
+using System;
+
+namespace KeywordMacroscope
+{
+
+	/// <summary>
+	/// Description of MacroscopeSerpsBing.
+	/// </summary>
+
+	public class MacroscopeSerpsBing : MacroscopeSerps
+	{
+
+		/**************************************************************************/
+
+		/**************************************************************************/
+
+		public MacroscopeSerpsBing()
+		{
+		}
+
+		/**************************************************************************/
+
+	}
+
+}

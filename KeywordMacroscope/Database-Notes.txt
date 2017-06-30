@@ -1,0 +1,55 @@
+﻿https://msdn.microsoft.com/en-us/library/jj193542(v=vs.113).aspx
+
+
+
+
+
+
+TABLE keywords_project
+	datetime	created
+	datetime	modified
+	varchar		project_id
+	varchar		project_name
+	varchar		client_id
+
+
+
+
+
+
+
+
+
+
+TABLE keywords_collection
+	varchar	project_id
+
+	`datetime` = NOW(),
+	`datetime`	= NOW(),
+	`site`			= ?,
+	`length`		= ?,
+	`keyword`		= ?,
+	`url`				= ?
+
+
+
+
+
+
+
+
+
+
+
+
+TABLE keywords_ranking
+
+	`datetime`	= NOW(),
+	`datetime`	= DATE(NOW()),
+	`engine`		= 'www.google.com',
+	`site`			= ?,
+	`length`		= ?,
+	`keyword`		= ?,
+	`position`	= ?,
+	`type`			= ?,
+	`url`				= ?
