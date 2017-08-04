@@ -30,7 +30,7 @@ namespace KeywordMacroscope
 {
 
 	[TestFixture]
-	public class TestMacroscopeEngine
+	public class TestMacroscopeEngine : MacroscopeBase
 	{
 
 		/**************************************************************************/
@@ -38,7 +38,6 @@ namespace KeywordMacroscope
 		[Test]
 		public void TestMethod()
 		{
-			// TODO: Add your test.
 		}
 
 		/**************************************************************************/

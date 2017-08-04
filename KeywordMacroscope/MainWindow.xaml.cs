@@ -36,22 +36,24 @@ using System.Windows.Media;
 namespace KeywordMacroscope
 {
 
-	/// <summary>
-	/// Interaction logic for Window1.xaml
-	/// </summary>
+  /// <summary>
+  /// Interaction logic for Window1.xaml
+  /// </summary>
 
-	public partial class MainWindow : Window
-	{
+  public partial class MainWindow : Window
+  {
 
-		/**************************************************************************/
+    /**************************************************************************/
 
-		public MainWindow()
-		{
-			InitializeComponent();
-		}
+    public MainWindow()
+    {
 
-		/**************************************************************************/
+      InitializeComponent();
 
-	}
+    }
+
+    /**************************************************************************/
+
+  }
 
 }
