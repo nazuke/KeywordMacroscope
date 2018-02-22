@@ -1,26 +1,36 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
-# SharpDevelop 5.1
-VisualStudioVersion = 12.0.20827.3
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2036
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeywordMacroscope", "KeywordMacroscope\KeywordMacroscope.csproj", "{DBACE8A4-9039-4367-8D24-7265B669B993}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A49F1DC9-18D2-4758-98BF-57CE08538D01}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|Any CPU = Debug|Any CPU
 		Debug|64-bit = Debug|64-bit
-		Release|Any CPU = Release|Any CPU
+		Debug|Any CPU = Debug|Any CPU
 		Release|64-bit = Release|64-bit
+		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{DBACE8A4-9039-4367-8D24-7265B669B993}.Debug|Any CPU.ActiveCfg = Release|Any CPU
-		{DBACE8A4-9039-4367-8D24-7265B669B993}.Debug|Any CPU.Build.0 = Release|Any CPU
 		{DBACE8A4-9039-4367-8D24-7265B669B993}.Debug|64-bit.ActiveCfg = Debug|64-bit
 		{DBACE8A4-9039-4367-8D24-7265B669B993}.Debug|64-bit.Build.0 = Debug|64-bit
-		{DBACE8A4-9039-4367-8D24-7265B669B993}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DBACE8A4-9039-4367-8D24-7265B669B993}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBACE8A4-9039-4367-8D24-7265B669B993}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{DBACE8A4-9039-4367-8D24-7265B669B993}.Debug|Any CPU.Build.0 = Release|Any CPU
 		{DBACE8A4-9039-4367-8D24-7265B669B993}.Release|64-bit.ActiveCfg = Release|64-bit
 		{DBACE8A4-9039-4367-8D24-7265B669B993}.Release|64-bit.Build.0 = Release|64-bit
+		{DBACE8A4-9039-4367-8D24-7265B669B993}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBACE8A4-9039-4367-8D24-7265B669B993}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {63ECE8D7-D8C7-4CCD-B7E6-2F39EEAB6F0C}
 	EndGlobalSection
 EndGlobal
